@@ -32,6 +32,8 @@ enum ModelGeneration {
   three @3;
   four @4;
   five @5;
+  six @6;
+  seven @7;
 }
 
 struct ControlsStateSP @0x81c2f05a394cf4af {

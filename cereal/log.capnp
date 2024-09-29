@@ -871,6 +871,7 @@ struct DrivingModelData {
   frameId @0 :UInt32;
   frameIdExtra @1 :UInt32;
   frameDropPerc @6 :Float32;
+  modelExecutionTime @7 :Float32;
 
   action @2 :ModelDataV2.Action;
 
@@ -1010,6 +1011,8 @@ struct ModelDataV2 {
     brake3MetersPerSecondSquaredProbs @4 :List(Float32);
     brake4MetersPerSecondSquaredProbs @5 :List(Float32);
     brake5MetersPerSecondSquaredProbs @6 :List(Float32);
+    gasPressProbs @7 :List(Float32);
+    brakePressProbs @8 :List(Float32);
   }
 
   struct Pose {
